@@ -1,0 +1,45 @@
+/* main.scss */
+
+
+@import "main/header/header";
+@import "main/es1_doors__1";
+
+@import "site/okna/main/win-inst";
+@import "site/okna/main/win-profil";
+
+@import "main/center-menu";
+@import "main/header/shar-t2";
+@import "main/s2/b-raschet-okna";
+@import "main/s2/okna-temp";
+@import "main/s2/es7_balcons-t1";
+@import "main/s2/okna-derevo";
+@import "main/s2/template-white";
+@import "main/s2/template-okna";
+@import "main/s2/temp-slider";
+@import "main/s2/est2-okna";
+
+@import "main/header/shar-t3";
+@import "main/s3/gotov-okna";
+@import "main/s3/est3_doors";
+
+@import "main/header/shar-t4";
+@import "main/s5/template2-okna2";
+@import "main/s5/sdelaem-remont";
+@import "main/s5/rabotaem-s-ur-licami";
+@import "main/s5/ne-beda";
+
+// 6-ая странница
+@import "main/header/shar-t5";
+@import "main/s6/_sk_na_balk";
+
+// 7-ая странница
+@import "main/header/shar-t6";
+@import "main/s7/as2";
+@import "main/s7/as3";
+
+// 8-ая странница
+@import "main/header/shar-t7";
+@import "main/header/shar-t8";
+
+// сложно
+@import "main/new_derevo";
