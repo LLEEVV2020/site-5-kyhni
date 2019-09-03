@@ -822,6 +822,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-flex: 0;
       -ms-flex: 0;
           flex: 0;
@@ -830,6 +833,12 @@ table {
 
 .top_block__logo span {
   margin-left: 4px;
+}
+
+.top_block__logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .top_menu.navbar-default {
@@ -5302,7 +5311,7 @@ input::-webkit-input-placeholder {
   color: #000000;
 }
 
-.es2_balcons .es2_oknatseny_row + .es2_oknatseny_row ~ .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
+.es2_balcons .es2_oknatseny_row ~ .es2_oknatseny_row .es2_kyhnatseny_minu.es2_red.es2_kyhnatseny_minu {
   font-size: 24px;
   line-height: 29px;
 }
@@ -5313,12 +5322,6 @@ input::-webkit-input-placeholder {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.es3_balcons {
-  background-image: url(../img/b_market_filtr_bg.png);
-  background-color: #FBC035;
-  margin-top: 30px;
 }
 
 .es3_balcons form {
@@ -8483,7 +8486,7 @@ input::-webkit-input-placeholder {
 }
 
 .es2.es2_doors .es2_block .iosslider_2 {
-  height: 300px !important;
+  height: 340px !important;
 }
 
 .es6_doors {
