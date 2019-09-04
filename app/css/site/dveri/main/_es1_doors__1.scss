@@ -16,6 +16,9 @@
         height: 100%;
         width: 45vw;
         z-index: 1;
+        @media only screen and (max-width: 767px){
+            display: none;
+        }
     }
     &::after{
         content: "";
@@ -27,6 +30,9 @@
         height: 100%;
         width: 63vw; 
         background-size: cover;
+        @media only screen and (max-width: 767px){
+            width: 100%; 
+        }
     }
     h1{
         font-weight: bold;
@@ -34,6 +40,10 @@
         line-height: 88px;
         color: #000000;
         margin-top: 32px; 
+        @media only screen and (max-width: 767px){
+            color: white;
+            text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000, 3px 3px 6px rgba(0,0,0,.5);
+        }
     }
     h2{
         font-weight: bold;
@@ -41,6 +51,10 @@
         line-height: 59px;
         color: #000000;
         margin-bottom: 25px;
+        @media only screen and (max-width: 767px){
+            color: white;
+            text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000, 3px 3px 6px rgba(0,0,0,.5);
+        }
     }
     .flex-item{
         display: flex;
@@ -55,13 +69,29 @@
         text-decoration-line: underline;
 
         color: #000000;
+        @media only screen and (max-width: 767px){
+            max-width: 245px;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration-line: none;
+            
+        }
         img{
             margin-right: 12px;
             
         }
+        span{
+            @media only screen and (max-width: 767px){
+                color: white;
+                text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000, 3px 3px 6px rgba(0,0,0,.5);
+            }
+        }
     }
     .es1-menu-wrapper{
         margin-bottom: 70px;
+        @media only screen and (max-width: 767px){
+
+        }
     }
     .garantii100{
         width: 110px;
@@ -70,6 +100,9 @@
         background-size: cover;
         transform: translateX(-37px) translateY(14px) scale(1.25);
         margin-right: -17px;
+        @media only screen and (max-width: 450px){
+            display: none;
+        }
     }
     .es1_skidka__block{
         width: auto;

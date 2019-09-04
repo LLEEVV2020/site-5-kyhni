@@ -3575,7 +3575,7 @@ span.red-button {
   display: inline-block;
   vertical-align: top;
   width: 350px;
-  margin: 50px 10px 0 10px;
+  margin: 20px 10px 0 10px;
 }
 
 /* line 11, ../../sass/blocks/b-way/_b-way.sass */
@@ -3599,9 +3599,8 @@ span.red-button {
   line-height: 34px;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
   color: #000000;
 }
@@ -3618,7 +3617,8 @@ span.red-button {
 
 /* line 29, ../../sass/blocks/b-way/_b-way.sass */
 .b-way__item_info strong {
-  color: #ff0000;
+  color: #DD0053;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -1,0 +1,41 @@
+.mult-discount{
+    background-color: #FBC035;
+    background-image: url(../img/b_market_filtr_bg.png);
+    margin-bottom: -80px;
+    @media only screen and (max-width: 1200px){
+        margin-bottom: 0;
+    }
+    .b-sms-form{
+        max-width: 572px;
+        @media only screen and (max-width: 767px){
+            max-width: 100%;
+        }
+        form{
+            @media only screen and (max-width: 767px){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .form-group{
+            @media only screen and (max-width: 767px){
+                margin-right: 0;
+            }
+        }
+        .b-sms_but{
+            width: auto;
+        }
+    }
+    .form-group, .red-button{
+        width: 265px;
+    }
+    .b-sms-form .b-sms__text{
+        margin-bottom: 30px;
+        padding-top: 40px;
+    }
+    .b-sms_phone{
+        transform: translateY(-80px);
+        @media only screen and (max-width: 1200px){
+            display: none;
+        }
+    }
+}

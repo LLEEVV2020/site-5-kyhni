@@ -1,6 +1,7 @@
 .waiting_reality7{
     background-color: #EDEDED;
     padding-bottom: 40px;
+    margin: 0;
     .flex-container{
         flex-direction: column;
     }
@@ -14,7 +15,7 @@
 
         .text-block{
             width: 52%;
-            padding-top: 17px;
+            
         }
     }
     .b-sms__undertext {
@@ -25,10 +26,10 @@
         
         color: #000000;
         span{
-            font-weight: bold;
+            
             font-size: 48px;
             line-height: 59px;
-            color: #000000;
+            white-space: nowrap;
         }
     }
     
@@ -37,9 +38,13 @@
     }
     
     .b-sms__undertext{
-        margin-bottom: 45px;
+        margin-bottom: 35px;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 1200px){
+            justify-content: center;
+        }
     }
     
     .b-vid-remonta__price_old ~ span{
@@ -48,18 +53,31 @@
     .b-vid-remonta__price_old::before{
         border: 1px solid #DD0053;
         border-bottom: 2px solid #DD0053;
-        transform: rotate(-162.41deg);
+        transform: rotate(-168.41deg);
+    }
+    .b-vid-remonta__price_old{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 59px;
+    }
+    .b-vid-remonta__price_new{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        color: #DD0053;
+        margin-top: 0; 
     }
     .b-sms__text{
-        margin-bottom: 42px;
+        margin-bottom: 30px;
     }
 
     .red-button{
-        width: 196px;
+        width: 264px;
         height: 40px;
         padding: 0;
         margin-bottom: 0;
-        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 22px;
         background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
         color: #000000;
@@ -67,10 +85,14 @@
     p{
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 24px;
+        line-height: 29px;
         margin-top: 0;
         color: #000000;
+        span{
+            color: #DD0053;
+            font-weight: bold;
+        }
     }
     @media only screen and (max-width: 992px){
         margin-bottom: -40px;

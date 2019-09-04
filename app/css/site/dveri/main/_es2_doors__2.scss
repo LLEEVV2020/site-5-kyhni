@@ -1,5 +1,9 @@
 .es2.es2_doors{
     .es2_block {
+        @media only screen and (max-width: 768px){
+            height: auto;
+            margin-bottom: 40px;
+        }
         .es2_oknatseny{
             .es2_oknatseny_row{
                 .es2_oknatseny_row_left{
