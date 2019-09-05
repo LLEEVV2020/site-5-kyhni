@@ -4815,11 +4815,6 @@ input::-webkit-input-placeholder {
   }
 }
 
-.es1.block-action .es1__block .action-img img {
-  -webkit-transform: translate(70px, 0) scale(0.8);
-          transform: translate(70px, 0) scale(0.8);
-}
-
 @media only screen and (max-width: 992px) {
   .es1.block-action .es1__block .action-img img {
     -webkit-transform: translate(0px, 10px) scale(0.8);
@@ -9745,6 +9740,8 @@ input::-webkit-input-placeholder {
 
 .finishing_dveri.es1.block-action {
   background-image: url(../img/finishing_dveri.jpg);
+  background-size: contain;
+  background-position-x: 100%;
 }
 
 .finishing_dveri.es1.block-action .es1__pict {
