@@ -706,6 +706,7 @@ table {
   -ms-grid-columns: 2fr 1fr;
   grid-template-columns: 2fr 1fr;
       grid-template-areas: "header header" "title sidebar" "main sidebar" "footer footer";
+  overflow: hidden;
 }
 
 .mastheader {
@@ -1161,6 +1162,7 @@ table {
 
 .map-wrapper {
   background-color: #EDEDED;
+  position: relative;
 }
 
 .es3__phone_number::before {
@@ -2896,6 +2898,8 @@ input::-webkit-input-placeholder {
   background-image: url(../img/b_market_filtr_bg.png);
   background-color: #FBC035;
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 3;
 }
 
 .es14_bg_custom .slick-track {
@@ -2912,6 +2916,16 @@ input::-webkit-input-placeholder {
 .es14_bg_custom .slick-slide {
   margin: 0 15px;
   height: auto;
+  opacity: 0;
+}
+
+.es14_bg_custom .slick-list {
+  overflow: visible;
+  z-index: 1;
+}
+
+.es14_bg_custom .slick-slide.slick-active {
+  opacity: 1;
 }
 
 .es14_bg_custom .slick-dots {
@@ -2955,6 +2969,38 @@ input::-webkit-input-placeholder {
   font-size: 18px;
   line-height: 22px;
   color: #000;
+  position: relative;
+}
+
+.es14_bg_custom .item-rewiews > div p > i {
+  text-decoration: underline;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #015b77;
+}
+
+.es14_bg_custom .item-rewiews > div p:hover + span {
+  display: block;
+}
+
+.es14_bg_custom .item-rewiews > div p:hover i {
+  opacity: 0;
+}
+
+.es14_bg_custom .item-rewiews > div p + span {
+  position: absolute;
+  left: 0;
+  padding-left: 114px;
+  padding-bottom: 10px;
+  width: 100%;
+  padding-right: 21px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: none;
 }
 
 .es14_bg_custom .item-rewiews .box1 {

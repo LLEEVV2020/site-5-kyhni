@@ -30,6 +30,8 @@
     background-image: url(../img/b_market_filtr_bg.png);
     background-color: #FBC035;
     font-family: "Montserrat", sans-serif;
+    position: relative;
+    z-index: 3;
     .slick-track{
         margin: 0 -15px;
     }
@@ -42,6 +44,14 @@
     .slick-slide{
         margin: 0 15px;
         height: auto;
+        opacity: 0;
+    }
+    .slick-list{
+        overflow: visible;
+        z-index: 1;
+    }
+    .slick-slide.slick-active{
+        opacity: 1;
     }
     .slick-dots{
         bottom: -50px;
@@ -76,6 +86,35 @@
                 font-size: 18px;
                 line-height: 22px;
                 color: #000;
+                position: relative;
+                &>i{
+                    text-decoration: underline;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    text-decoration: underline;
+                    font-weight: 600;
+                    color: #015b77;
+                }
+                
+                &:hover + span{
+                    display: block;
+                }
+                &:hover i{
+                    opacity: 0;
+                }
+            }
+            p + span{
+                position: absolute;
+                left: 0;
+                padding-left: 114px;
+                padding-bottom: 10px;
+                width: 100%;
+                padding-right: 21px;
+                background-color: #fff;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                display: none;
             }
         }
         .box1{
