@@ -4495,7 +4495,7 @@ input::-webkit-input-placeholder {
   }
 }
 
-.b_contact_ceo_bg .b_contact_ceo_form form {
+.b_contact_ceo_bg .b_contact_ceo_form .div-form {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4508,7 +4508,7 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 768px) {
-  .b_contact_ceo_bg .b_contact_ceo_form form {
+  .b_contact_ceo_bg .b_contact_ceo_form .div-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -5457,7 +5457,7 @@ input::-webkit-input-placeholder {
       flex-wrap: wrap;
 }
 
-.es3_balcons form {
+.es3_balcons .div-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9846,7 +9846,7 @@ input::-webkit-input-placeholder {
           flex: 1;
 }
 
-.b-kyhni-bg .b-sms__form form {
+.b-kyhni-bg .b-sms__form .div-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9854,7 +9854,7 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
-  .b-kyhni-bg .b-sms__form form {
+  .b-kyhni-bg .b-sms__form .div-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
